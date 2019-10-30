@@ -97,7 +97,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+    #wrapper {
+      width: 960px;
+      border: black thin;
+}
+    #top {
+      height: 120px;
+      line-height: 120px
+    }
+    #main_menu menu {
+      margin: 0px;
+      padding: 0px;
+      text-align: right;
+    }
+    .floatLeft {
+      float: left;
+    }
+    .grBig {
+      width: 593px;
+    }
+    .grSmall {
+      logo: 367px;
+    }
+    .clear {
+      clear: both;
+    }
+    #main_menu li {
+      display: inline;
+      margin: 0;
+    }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
