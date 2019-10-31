@@ -103,28 +103,36 @@ textarea {
 }
     #top {
       height: 120px;
-      line-height: 120px
+      line-height: 0px;
     }
+    #header {
+      height: 40px;
+    }
+
     #main_menu menu {
       margin: 0px;
       padding: 0px;
-      text-align: right;
+    }
+    #sidebar {
+      margin:  0px;
+      padding: 0px;
+      line-height: 500px;
     }
     .floatLeft {
       float: left;
+    }
+    .floatRight {
+      float: right;
     }
     .grBig {
       width: 593px;
     }
     .grSmall {
-      logo: 367px;
-    }
-    .clear {
-      clear: both;
+      width: 367px;
     }
     #main_menu li {
       display: inline;
-      margin: 0;
+      margin: 0px;
     }
 /* ==========================================================================
    Helper classes
