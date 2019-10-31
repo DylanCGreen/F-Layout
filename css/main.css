@@ -116,7 +116,12 @@ textarea {
     #sidebar {
       margin:  0px;
       padding: 0px;
-      line-height: 500px;
+      line-height: 20px;
+      padding-top: 480px;
+      text-align: right;
+    }
+    #sidebar h4 {
+      text-align: center;
     }
     .floatLeft {
       float: left;
